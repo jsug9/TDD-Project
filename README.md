@@ -1,6 +1,6 @@
 # TDD-Project
 
-> Add Description here.
+> This project is test-driven development (TDD), which means that tests are not an afterthought.
 
 ## Getting Started
 
