@@ -26,8 +26,8 @@ describe Solver do
       expect(solver.reverse('hello')).to be_a(String)
     end
 
-    it 'fizzbuzz returns a number' do
-      expect(solver.fizzbuzz(5)).to be_a(Integer)
+    it 'fizzbuzz returns a string' do
+      expect(solver.fizzbuzz(5)).to be_a(String)
     end
   end
 
@@ -75,4 +75,5 @@ describe Solver do
     it 'returns "fizzbuzz" for multiples of 3 and 5' do
       expect(solver.fizzbuzz(15)).to eq('fizzbuzz')
     end
+end
 end
