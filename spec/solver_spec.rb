@@ -2,7 +2,7 @@ require './solver'
 
 describe Solver do
   let(:solver) { Solver.new }
-  
+
   describe 'has methods' do
     it 'has a factorial method' do
       expect(solver).to respond_to(:factorial)
@@ -75,5 +75,5 @@ describe Solver do
     it 'returns "fizzbuzz" for multiples of 3 and 5' do
       expect(solver.fizzbuzz(15)).to eq('fizzbuzz')
     end
-end
+  end
 end
